@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+        <title>Task 3</title>
+        <link rel="stylesheet" type="text/css" href="task3.css">
+        <script type="text/javascript" src="task3.js"></script>
+    </head>
+    <body>
+        <div class="player-wrap">
+            <button id="btn-play" class="btn btn-play" disabled>
+              <img src="play.svg" alt="play" class="btn-img">
+            </button>
+            <button id="btn-stop" class="btn btn-stop" disabled>
+              <img src="stop.svg" alt="stop" class="btn-img">
+            </button>
+            <div class="btn-choose-wrap">
+                <input type="file" multiple accept="audio/* " id="btn-choose-file">
+            </div>
+            <div id="track-title">File is not uploaded</div>
+        </div>
+        <div id="drop-zone">
+            <span class="drop-zone-text">Drop file here</span>
+        </div>
+        <canvas id="visualizator" width="1000" height="150"></canvas>
+    </body>
+</html>
